@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/formazas.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Reszponzív oldal</title>
+  </head>
+  <body>
+    <section class="top-nav sticky-top">
+      <div>
+        <a href="#"><img src="images/logo.png" style="width:155px;"></a>
+      </div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#pluszok">Pluszok</a></li>
+        <li><a href="#nyelvek">Nyelvek</a></li>
+        <li><a href="#kapcsolat">Kapcsolat</a></li>
+      </ul>
+    </section>
+    <div>
+      <div id="home" class="videoszoveg"><p>Készen állsz <span class="auto-type"></span></p></div>
+      <img src="images/bg.jpg" alt="háttérkép" style="width: 100%;">
+    </div>
+
+    <script>
+      var typed = new Typed(".auto-type",{
+        strings: ["átlépni a határaid?","valami újra?"],
+        typeSpeed: 100,
+        backSpeed: 50,
+        loop: false
+      })
+    </script>
+  
+    <a class="nav-link" href="#kezdjunkbele"><button type="button" class="btn videogomb">KEZDJÜNK BELE</button></a>
+    <div style="padding:70px;">
+  </div>
+
+    <div style="padding:10px;">
+      <h2 id="pluszok" class="cimsorok">PLUSZOK</h2>
+    </div>
+
+      <div class="team-boxed">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs col-md-6 col-lg item">
+                    <div class="zsugabubus box rounded"><img class="rounded-circle" src="images/boostrap.png">
+                        <h3 class="name">BOOTSTRAP</h3>
+                        <p class="title">Az általam választott keretrendszer</p>
+                        <div class="social"><a href="https://www.facebook.com/w3nax"><i class="fa fa-facebook-official"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-xs col-md-6 col-lg item">
+                    <div class="zsugabubus box rounded"><img class="rounded-circle" src="images/php.png">
+                        <h3 class="name">PHP</h3>
+                        <p class="title">A design érdekében php-t használtam a form résznél</p>
+                        <div class="social"><a href="https://www.facebook.com/profile.php?id=100010693290934"><i class="fa fa-facebook-official"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="kezdjunkbele" style="padding:120px;">
+  <h2 id="nyelvek" class="cimsorok">FELHASZNÁLT NYELVEK</h2>
+</div>
+
+  <div class="team-boxed ">
+    <div class="container">
+        <div class="row">
+            <div class="zsugabubus rounded col-xs-6 col-lg-4 item">
+                <div class="box rounded"><img class="rounded-circle" src="images/1.png">
+                    <h3 class="name">CSS</h3>
+                    <p class="title">A css-t a weboldal formázására használtam fel</p>
+                    <div class="social"><a href="https://www.facebook.com/hungarymoments"><i class="fa fa-facebook-official"></i></a></div>
+                </div>
+            </div>
+            <div class="zsugabubus rounded col-md-6 col-lg-4 item">
+                <div class="box rounded"><img class="rounded-circle" src="images/2.png">
+                    <h3 class="name">HTML</h3>
+                    <p class="title">A html az oldal megjelenéséért szollgál</p><br><br>
+                    <div class="social"><a href="https://www.facebook.com/karvolna.hu"><i class="fa fa-facebook-official"></i></a></div>
+                </div>
+            </div>
+            <div class="zsugabubus rounded col-md-6 col-lg-4 item">
+                <div class="box rounded"><img class="rounded-circle" src="images/3.png">
+                    <h3 class="name">JAVASCRIPT</h3>
+                    <p class="title">A javascript néhány bónusz funkciót nyújt, például a vigyél fel gomb</p>
+                    <div class="social"><a href="https://www.facebook.com/highsignals"><i class="fa fa-facebook-official"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div style="padding:120px;">
+  <h2 id="kapcsolat" class="cimsorok">KAPCSOLAT</h2>
+</div>
+<form class="center" action="config.php">
+    <input class="formformatting formformattingnameem rounded" placeholder="Név" type="text" name="name">
+    <input class="formformatting formformattingnameem rounded" placeholder="E-mail*" type="text" name="email"><br>
+    <input class="formformatting formformattingtel rounded" placeholder="Telefonszám: 06123456789" type="text" name="tel"><br>
+    <textarea class="formformatting formformattingmsg rounded" placeholder="Üzenet" type="text" name="comment" cols="40" rows="5"></textarea><br><br>
+    <input class="kuldesgomb" type="submit" value="Küldés">
+</form>
+</div>
+
+<!-- Footer -->
+
+<footer>
+  <h1 class="footerh1">Egyéb projektek</h1>
+  <div class="hirlevelformazo"><ul class="list-unstyled mb-0">
+    <li>
+      <a href="https://github.com/szt2bacpet/PortfolioKA" class="footerformazas">Portfólió</a>
+    </li>
+    <li>
+      <a href="https://github.com/szt2bacpet/AM-BA" class="footerformazas">Tic-Tac-Toe</a>
+    </li>
+  </ul>
+</div>
+
+<button onclick="topFunction()" id="topgomb" class="icon-chevron-up" title="Go to top"></button>
+<script>
+//Get the button
+var mybutton = document.getElementById("topgomb");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+  <!-- Copyright -->
+  <div class="text-center p-3 footerformazas">
+    ©2023
+  </div>
+  <!-- Copyright -->
+</footer>
+  </body>
+</html>

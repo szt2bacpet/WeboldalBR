@@ -1,0 +1,20 @@
+<svg id="Réteg_4" data-name="Réteg 4" xmlns="http://www.w3.org/2000/svg" width="239.13" height="72.81" viewBox="0 0 239.13 72.81">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #deb61e;
+      }
+
+      .cls-2 {
+        font-size: 22.47px;
+        font-family: Heavitas;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.03em;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M990.23-380.93c-6.31,17.09-11.44,29.63-13.6,34.73-3.33,7.88-6.81,15.59-6.81,15.59a20,20,0,0,1-5.07,5.32,19.9,19.9,0,0,1-6.5,3.11,19.41,19.41,0,0,1-2.75.44c-7.36.57-128.86.23-194.88,0a11.1,11.1,0,0,1-6.61-3.44,10.46,10.46,0,0,1-2.68-7v-51.52a10.52,10.52,0,0,1,10.52-10.53H980a11,11,0,0,1,7.44,3.09C991.51-387.07,990.32-381.33,990.23-380.93Z" transform="translate(-751.33 394.24)"/>
+  <text class="cls-2" transform="translate(13.76 44.83)">KEZ<tspan class="cls-3" x="47.79" y="0">D</tspan><tspan x="64.75" y="0">JÜNK BELE</tspan></text>
+</svg>
